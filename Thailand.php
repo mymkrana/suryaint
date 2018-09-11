@@ -1,119 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tour Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
-
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	
-	<!-- Date Picker -->
-	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
-		
-			<div class="colorlib-loader"></div>
-
-			<div id="page">
-				<nav class="colorlib-nav" role="navigation" >
-					<div class="top-menu">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-xs-2">
-									<div id="colorlib-logo"><a href="index.html"><img class="img-responsive" src="images/logo.png" alt="resort"></a></div>
-								</div>
-								<div class="col-xs-10 text-right menu-1">
-										
-									<ul class="offer">
-										
-										<li><a href="index.html"><b>Home</a></li>
-										
-										<li class="has-dropdown">
-											<a href="tours.html"><b> International Packages</b></a>
-										
-											<ul class="dropdown">
-													<a href="hotel-room.html"><li>Singapore</li></a>
-														<a href="dubai.html">	<li>Dubai</li></a>
-														<a href="Thailand.html">	<li>Thailand</li></a>
-														<a href="Malaysia.html">	<li>Malaysia</li></a>
-														<a href="Mauritius.htlm">	<li>Bali</li></a>
-														<a href="dubai.html">	<li>Mauritius</li></a>
-														<a href="New Zealand.html">	<li>New Zealand</li></a>
-														<a href="Uzbekistan.hhtml">	<li>Uzbekistan</li></a>
-														<a href="Kazakhstan.html">	<li>Kazakhstan</li></a>
-														<a href="tours.html">	<li>View All</li></a>
-											</ul>
-										</li>
-										<li>
-												<li class="has-dropdown">
-												<a href="tour1.html"><b> Domestic Packages</b></a>
-												<ul class="dropdown">
-														<a href="goa.html"><li>Goa</li></a>
-															<a href="Andaman.html">	<li>Andaman</li></a>
-															<a href="Kerala.html">	<li>Kerala</li></a>
-															<a href="Darjeeling.html">	<li>Darjeeling</li></a>
-															<a href=" Kashmir.htlm">	<li> Kashmir</li></a>
-															<a href="Ladhak.html">	<li>Ladhak</li></a>
-															<a href="Ooty.html">	<li>Ooty</li></a>
-														
-												</ul>
-											</li>
-										
-										<li><a href="services.html"><b>Services</b></a></li>
-										
-										<li><a href="about.html"><b>About</b></a></li>
-										<li><a href="contact.html"><b>Contact</b></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</nav>
+<?php require_once('inc/top.php');?>
 				<div class="colorlib-wrap">
 						<div class="container">
 							<div class="row">
@@ -122,7 +7,7 @@
 										<div class="col-md-12">
 											<div class="wrap-division">
 				<div class="col-md-12 col-md-offset-0 heading2 animate-box">
-					<font text color="skyblue" size="14px">	Dubai Tour</font>
+					<font text color="skyblue" size="14px">	Thailand Tour</font>
 						</div>
 						</div>
 						</div>
@@ -147,16 +32,16 @@
 													
 												<div class="row">
 													<div class="col-md-6 col-sm-6">
-														<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/Dubai-for-desktop.jpg);"></div>
+														<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/thailand-wallpaper-13.jpg);"></div>
 													</div>
 													<div class="col-md-6 col-sm-6">
 														<div class="desc">
 															
-															<h2>Dubai(3N)</h2>
-															<p class="price"><span>₹ 34500
-																	
-																</span> <small>/	3 Nights(3 Star)</small></p>
-															<p>Spend your holiday in Dubai with Surya International. This tour will let you have the perfect Arabic experience. You get to dine on a cruise and sail throug. . . . .</p>
+															<h2>Pattaya (3N)+ Bangkok (1N)</h2>
+															<p class="price"><span>₹ 26000
+                                                                    
+																</span> <small>/ 4 Nights(3 Star)</small></p>
+															<p>Pattaya and Bangkok have always been on the list of first time travellers to Thailand. Only 147 km from Bangkok, Pattaya is the closest of all the ma. . </p>
 														<hr>
 															<img src="https://travelwindo.com/assets/images/flight-off.png" width="40px">
 															Flight
@@ -182,10 +67,11 @@
 													
 												<div class="row">
 													<div class="col-md-6 col-sm-6">
-															<h2>Exotic Dubai (4N)</h2>
-															<p class="price"><span>₹ 24600
-																	</span> <small>/ 4 Nights (3 Star)</small></p>
-															<p>Dubai has a wealth of things to see and do on your holiday. For the active, there is a wide range of water-sports, indoor snow-skiing, world champion. . . . .</p>
+															<h2>Pattaya (2N)+ Bangkok (2N)+ Phuket (2N)</h2>
+															<p class="price"><span>₹ 16000
+                                                                    
+																	</span> <small>/ 6 Nights (3 Star)</small></p>
+															<p>Thailand is a country of scenic diversity and ancient traditions, of tranquil temples and modern urban excitement. With and independent history going.</p>
 															<hr>
 															<img src="https://travelwindo.com/assets/images/flight-off.png" width="40px">
 															Flight
@@ -202,7 +88,7 @@
 													</div>
 													<div class="col-md-6 col-sm-6">
 														<div class="desc">
-																<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/Burj-Khalifa-image.jpg);"></div>
+																<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/THAI11.jpg);"></div>
 														</div>
 													</div>
 												</div>
@@ -213,16 +99,16 @@
 														
 													<div class="row">
 														<div class="col-md-6 col-sm-6">
-															<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/dub.jpg);"></div>
+															<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/thai.jpg);"></div>
 														</div>
 														<div class="col-md-6 col-sm-6">
 															<div class="desc">
-																<h2>Dubai Deluxe(6N)</h2>
-																<p class="price"><span>₹ 33500
-																		
+																<h2>Pattaya (4N)+ Bangkok(1N)</h2>
+																<p class="price"><span>₹ 31500
+                                                                        
 																	
-																	</span> <small>/6 Nights (3 Star)</small></p>
-																<p>Dubai is a unique destination that is both a dynamic business centre and a tourist paradise. In a single day, the tourist can experience everything f. . ..</p>
+																	</span> <small>/5 Nights (3 Star)</small></p>
+																<p>Pattaya and Bangkok have always been on the list of first time travellers to Thailand. Only 147 km from Bangkok, Pattaya is the closest of all the ma. . .</p>
 															<hr>
 																<img src="https://travelwindo.com/assets/images/flight-off.png" width="40px">
 																Flight
@@ -247,16 +133,13 @@
 												
 													<div class="row">
 														<div class="col-md-6 col-sm-6">
-																<h2>Dubai(3N)</h2>
-																<p class="price"><span>₹ 38000
-																		
+																<h2>Phuket(3N)+ Krabi(3N)</h2>
+																<p class="price"><span>₹ 47700
+                                                                        
+                                                                        
 																	
-																		</span> <small>/	3 Nights (4 Star)</small></p>
-																<p>Spend your holiday in Dubai with Travel Windo. This tour will let you have the perfect Arabic experience. You get to dine on a cruise and sail throug. . . . .
-
-
-																		Flight
-																		  </p>
+																		</span> <small>/6 Nights (4 Star)</small></p>
+																<p>Krabi is a town that has so much to share that there is no chance that tourists would get bored here. From sandy beaches to glistening pools of fresh.</p>
 																<hr>
 																<img src="https://travelwindo.com/assets/images/flight-off.png" width="40px">
 																Flight
@@ -273,7 +156,7 @@
 														</div>
 														<div class="col-md-6 col-sm-6">
 															<div class="desc">
-																	<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/ddddd.jpg);"></div>
+																	<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/PhuketAutoCollage.jpg);"></div>
 															</div>
 														</div>
 													</div>
@@ -284,17 +167,17 @@
 															
 														<div class="row">
 															<div class="col-md-6 col-sm-6">
-																<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/wallpaper2you_197443.jpg);"></div>
+																<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/pattaya.jpg.jpg);"></div>
 															</div>
 															<div class="col-md-6 col-sm-6">
 																<div class="desc">
-																	<h2>Dubai(4N))</h2>
-																	<p class="price"><span>₹ 42100
-																			
+																	<h2>PATTAYA (3N)+ BANGKOK (1N)</h2>
+																	<p class="price"><span>₹ 29200
+                                                                            
 																		 
 																		
-																		</span> <small>/4 Nights( 5 Star)</small></p>
-																	<p>Dubai has a wealth of things to see and do on your holiday. For the active, there is a wide range of water-sports, indoor snow-skiing, world champion. . . . .</p>
+																		</span> <small>/4 Nights( 4Star)</small></p>
+																	<p>Pattaya and Bangkok have always been on the list of first time travellers to Thailand. Only 147 km from Bangkok, Pattaya is the closest of all the ma. . . . .</p>
 																<hr>
 																	<img src="https://travelwindo.com/assets/images/flight-off.png" width="40px">
 																	Flight

@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6, figure {
           
           color: #FFDD00; }
       .colorlib-nav ul li.has-dropdown {
-        position: relative; }
+        position:; }
         .colorlib-nav ul li.has-dropdown .dropdown {
           width: 140px;
           -webkit-box-shadow: 0px 14px 33px -9px rgb(49, 87, 221, );
@@ -142,11 +142,11 @@ h1, h2, h3, h4, h5, h6, figure {
           visibility: hidden;
           opacity: 0;
           position: absolute;
-          top: 7px;
+          top: px;
           left: 0;
           text-align: left;
           background: rgb(49, 87, 211);
-          padding: 20px;
+          padding: 10px;
           -webkit-border-radius: 4px;
           -moz-border-radius: 4px;
           -ms-border-radius: 4px;
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6, figure {
           transition: 0s; }
           .colorlib-nav ul li.has-dropdown .dropdown:before {
             bottom: 100%;
-            left: 40px;
+            left: 10px;
             border: solid transparent;
             content: " ";
             height: 0;
@@ -167,12 +167,12 @@ h1, h2, h3, h4, h5, h6, figure {
             border-width: 8px;
             margin-left: -8px; }
           .colorlib-nav ul li.has-dropdown .dropdown li {
-            display: block;
+            display:;
             margin-bottom:auto; }
             .colorlib-nav ul li.has-dropdown .dropdown li:last-child {
               margin-bottom: 0; }
             .colorlib-nav ul li.has-dropdown .dropdown li a {
-              padding: 2px 0;
+              padding: px 0;
               display: block;
               color: #999999;
               

@@ -1,128 +1,15 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tour Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
-
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	
-	<!-- Date Picker -->
-	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
-		
-			<div class="colorlib-loader"></div>
-
-			<div id="page">
-				<nav class="colorlib-nav" role="navigation" >
-					<div class="top-menu">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-xs-2">
-									<div id="colorlib-logo"><a href="index.html"><img class="img-responsive" src="images/logo.png" alt="resort"></a></div>
-								</div>
-								<div class="col-xs-10 text-right menu-1">
-									<ul class="offer">
-								
-										<li class="active"><a href="index.html"><b>Home</a></li>
-											<li class="has-dropdown">
-													<a href="tours.html"><b> International Packages</b></a>
-												
-													<ul class="dropdown">
-															<a href="hotel-room.html"><li>Singapore</li></a>
-																<a href="dubai.html">	<li>Dubai</li></a>
-																<a href="Thailand.html">	<li>Thailand</li></a>
-																<a href="Malaysia.html">	<li>Malaysia</li></a>
-																<a href="Mauritius.htlm">	<li>Bali</li></a>
-																<a href="dubai.html">	<li>Mauritius</li></a>
-																<a href="New Zealand.html">	<li>New Zealand</li></a>
-																<a href="Uzbekistan.hhtml">	<li>Uzbekistan</li></a>
-																<a href="Kazakhstan.html">	<li>Kazakhstan</li></a>
-																<a href="tours.html">	<li>View All</li></a>
-													</ul>
-												</li>
-												<li>
-														<li class="has-dropdown">
-														<a href="tour1.html"><b> Domestic Packages</b></a>
-														<ul class="dropdown">
-																<a href="goa.html"><li>Goa</li></a>
-																	<a href="Andaman.html">	<li>Andaman</li></a>
-																	<a href="Kerala.html">	<li>Kerala</li></a>
-																	<a href="Darjeeling.html">	<li>Darjeeling</li></a>
-																	<a href=" Kashmir.htlm">	<li> Kashmir</li></a>
-																	<a href="Ladhak.html">	<li>Ladhak</li></a>
-																	<a href="Ooty.html">	<li>Ooty</li></a>
-																
-														</ul>
-													</li>
-										
-										<li><a href="services.html"><b>Services</b></a></li>
-										
-										<li><a href="about.html"><b>About</b></a></li>
-										<li><a href="contact.html"><b>Contact</b></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</nav>
+<?php require_once('inc/top.php');?>
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(images/cover-img-4.jpg);">
+			   	<li style="background-image: url(images/12.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
 				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
 				   				<div class="slider-text-inner text-center">
-				   					<h2>by colorlib.com</h2>
-				   					<h1>Find Hotel</h1>
+				   					<h2>Surya Domestic Services</h2>
+				   					<h1>Find your  Tours</h1>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -139,114 +26,106 @@
 						<div class="row">
 							<div class="wrap-division">
 								<div class="col-md-6 col-sm-6 animate-box">
-									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-1.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+									<div class="tour">
+										<a href="tour-place.html" class="tour-img" style="background-image: url(images/22.jpg);">
+											<p class="price"><span>₹ 13250</span> <small>/ 3 Days</small></p>
 										</a>
-										<div class="desc">
+										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										</div>
+											<h2><a href="tour1.html">Glorious Goa</a></h2>
+											<span class="city">On the western coast of India, lies that perfect escape from the stresses or monotony of everyday life. Be it a trip with your friends, or a romantic. </span>
+										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
-									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-2.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+									<div class="tour">
+										<a href="tour1.html" class="tour-img" style="background-image: url(images/23.jpg);">
+											<p class="price"><span>₹ 15000</span> <small>/ 4 Days</small></p>
 										</a>
-										<div class="desc">
-											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										</div>
+										<span class="desc">
+											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 878 Reviews</p>
+											<h2><a href="tour1.html">Dazzling Goa</a></h2>
+											<span class="city">On the western coast of India, lies that perfect escape from the stresses or monotony of everyday life. Be it a trip with your friends, or a romantic</span>
+										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
-									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-3.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+									<div class="tour">
+										<a href="tour1.html" class="tour-img" style="background-image: url(images/24.jpg);">
+											<p class="price"><span>₹ 33000</span> <small>/ 7 Days</small></p>
 										</a>
-										<div class="desc">
-											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										</div>
+										<span class="desc">
+											<!-- <p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 909 Reviews</p> -->
+											<h2><a href="tour1.html">Kerala</a></h2>
+											<span class="city">Kerala is an enthralling strip of green coastal land on the southwest tip of the Indian neck of land. This pictorial destination of South India is bl</span>
+										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
-									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-4.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+									<div class="tour">
+										<a href="tour1.html" class="tour-img" style="background-image: url(images/25.jpg);">
+											<p class="price"><span> ₹ 23000</span> <small>/ 4 Days</small></p>
 										</a>
-										<div class="desc">
+										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										</div>
+											<h2><a href="tour1.html">Adorable Kerala</a></h2>
+											<span class="city">Kerala is an enthralling strip of green coastal land on the southwest tip of the Indian neck of land. This pictorial destination of South India is bl. </span>
+										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
-									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-5.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+									<div class="tour">
+										<a href="tour1.html" class="tour-img" style="background-image: url(images/26.jpg);">
+											<p class="price"><span>₹ 34000</span> <small>/ 3 Days</small></p>
 										</a>
-										<div class="desc">
+										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										</div>
+											<h2><a href="tour1.html">Splendid Andaman</a></h2>
+											<span class="city">Andaman & Nicobar Islands is an out-and-out fun travel destination that is very popular among domestic as well as international tourists. From the lo</span>
+										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
-									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-6.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+									<div class="tour">
+										<a href="tour1.html" class="tour-img" style="background-image: url(images/27.jpg);">
+											<p class="price"><span>₹ 29950</span> <small>/ 4 Days</small></p>
 										</a>
-										<div class="desc">
+										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										</div>
+											<h2><a href="tour1.html">Fun-Filled Darjeeling and Gangtok</a></h2>
+											<span class="city">Darjeeling is a hill station in the Eastern State of West Bengal. Also called the queen of hill-stations, at an altitude of 2134 m. or 7000 ft, it is. </span>
+										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
-									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-7.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+									<div class="tour">
+										<a href="tour1.html" class="tour-img" style="background-image: url(images/28.jpg);">
+											<p class="price"><span>₹ 33800</span> <small>/ 4 Days</small></p>
 										</a>
-										<div class="desc">
+										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										</div>
+											<h2><a href="tour1.html">Darjeeling (3N)+Gangtok(1N)</a></h2>
+											<span class="city">Wander away to Sikkim and Darjeeling, the two hilly charmers with this 5-nights, 6-days bestselling Sikkim tour package and experience the </span>
+										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
-									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-8.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+									<div class="tour">
+										<a href="tour1.html" class="tour-img" style="background-image: url(images/29.jpg);">
+											<p class="price"><span>₹ 21200</span> <small>/ 4 Days</small></p>
 										</a>
-										<div class="desc">
+										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										</div>
+											<h2><a href="tour1.html">Glamorous kashmir/Glimpse srinagar(4N)</a></h2>
+											<span class="city">The beautiful Kashmir valley looks like a paradise on earth. The valley is so beautiful that you will fall in love with it at the first sight itself..</span>
+										</span>
 									</div>
 								</div>
 							</div>
@@ -269,9 +148,17 @@
 					<div class="col-md-3">
 						<div class="sidebar-wrap">
 							<div class="side search-wrap animate-box">
-								<h3 class="sidebar-heading">Find your hotel</h3>
+								<h3 class="sidebar-heading">Find your tour</h3>
 								<form method="post" class="colorlib-form">
 				              	<div class="row">
+				              	 <div class="col-md-12">
+				              	 	<div class="form-group">
+				                    <label for="date">Where:</label>
+				                    <div class="form-field">
+				                      <input type="text" id="location" class="form-control" placeholder="Search Location">
+				                    </div>
+				                  </div>
+				              	 </div>
 				                <div class="col-md-12">
 				                  <div class="form-group">
 				                    <label for="date">Check-in:</label>
@@ -306,7 +193,7 @@
 				                  </div>
 				                </div>
 				                <div class="col-md-12">
-				                  <input type="submit" name="submit" id="submit" value="Find Hotel" class="btn btn-primary btn-block">
+				                  <input type="submit" name="submit" id="submit" value="Find Flights" class="btn btn-primary btn-block">
 				                </div>
 				              </div>
 				            </form>
@@ -394,45 +281,6 @@
 							<div class="side animate-box">
 								<div class="row">
 									<div class="col-md-12">
-										<h3 class="sidebar-heading">Categories</h3>
-										<form method="post" class="colorlib-form-2">
-										   <div class="form-check">
-												<input type="checkbox" class="form-check-input" id="exampleCheck1">
-												<label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Apartment</h4>
-												</label>
-										   </div>
-										   <div class="form-check">
-										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Hotel</h4>
-												</label>
-										   </div>
-										   <div class="form-check">
-										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Hostel</h4>
-												</label>
-										   </div>
-										   <div class="form-check">
-										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Inn</h4>
-												</label>
-										   </div>
-										   <div class="form-check">
-										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Villa</h4>
-												</label>
-										   </div>
-										</form>
-									</div>
-								</div>
-							</div>
-							<div class="side animate-box">
-								<div class="row">
-									<div class="col-md-12">
 										<h3 class="sidebar-heading">Location</h3>
 										<form method="post" class="colorlib-form-2">
 										   <div class="form-check">
@@ -457,45 +305,6 @@
 										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
 										      <label class="form-check-label" for="exampleCheck1">
 													<h4 class="place">Germany</h4>
-												</label>
-										   </div>
-										   <div class="form-check">
-										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Japan</h4>
-												</label>
-										   </div>
-										</form>
-									</div>
-								</div>
-							</div>
-							<div class="side animate-box">
-								<div class="row">
-									<div class="col-md-12">
-										<h3 class="sidebar-heading">Facilities</h3>
-										<form method="post" class="colorlib-form-2">
-										   <div class="form-check">
-												<input type="checkbox" class="form-check-input" id="exampleCheck1">
-												<label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Airport Transfer</h4>
-												</label>
-										   </div>
-										   <div class="form-check">
-										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Resto Bar</h4>
-												</label>
-										   </div>
-										   <div class="form-check">
-										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Restaurant</h4>
-												</label>
-										   </div>
-										   <div class="form-check">
-										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Swimming Pool</h4>
 												</label>
 										   </div>
 										   <div class="form-check">

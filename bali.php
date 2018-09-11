@@ -1,119 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tour Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
-
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	
-	<!-- Date Picker -->
-	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
-		
-			<div class="colorlib-loader"></div>
-
-			<div id="page">
-				<nav class="colorlib-nav" role="navigation" >
-					<div class="top-menu">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-xs-2">
-									<div id="colorlib-logo"><a href="index.html"><img class="img-responsive" src="images/logo.png" alt="resort"></a></div>
-								</div>
-								<div class="col-xs-10 text-right menu-1">
-										
-									<ul class="offer">
-										
-										<li><a href="index.html"><b>Home</a></li>
-										
-										<li class="has-dropdown">
-											<a href="tours.html"><b> International Packages</b></a>
-										
-											<ul class="dropdown">
-													<a href="hotel-room.html"><li>Singapore</li></a>
-														<a href="dubai.html">	<li>Dubai</li></a>
-														<a href="Thailand.html">	<li>Thailand</li></a>
-														<a href="Malaysia.html">	<li>Malaysia</li></a>
-														<a href="bali.htlm">	<li>Bali</li></a>
-														<a href="Maur.html">	<li>Mauritius</li></a>
-														<a href="New Zealand.html">	<li>New Zealand</li></a>
-														<a href="Uzbekistan.hhtml">	<li>Uzbekistan</li></a>
-														<a href="Kazakhstan.html">	<li>Kazakhstan</li></a>
-														<a href="tours.html">	<li>View All</li></a>
-											</ul>
-										</li>
-										<li>
-												<li class="has-dropdown">
-												<a href="tour1.html"><b> Domestic Packages</b></a>
-												<ul class="dropdown">
-														<a href="goa.html"><li>Goa</li></a>
-															<a href="Andaman.html">	<li>Andaman</li></a>
-															<a href="Kerala.html">	<li>Kerala</li></a>
-															<a href="Darjeeling.html">	<li>Darjeeling</li></a>
-															<a href="Kashmir.html">	<li> Kashmir</li></a>
-															<a href="Ladhak.html">	<li>Ladhak</li></a>
-															<a href="Ooty.html">	<li>Ooty</li></a>
-														
-												</ul>
-											</li>
-										
-										<li><a href="services.html"><b>Services</b></a></li>
-										
-										<li><a href="about.html"><b>About</b></a></li>
-										<li><a href="contact.html"><b>Contact</b></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</nav>
+<?php require_once('inc/top.php');?>
 				<div class="colorlib-wrap">
 						<div class="container">
 							<div class="row">
@@ -122,7 +7,7 @@
 										<div class="col-md-12">
 											<div class="wrap-division">
 				<div class="col-md-12 col-md-offset-0 heading2 animate-box">
-					<font text color="skyblue" size="14px">Kashmir Tour</font>
+					<font text color="skyblue" size="14px">	Bali Tour</font>
 						</div>
 						</div>
 						</div>
@@ -147,16 +32,16 @@
 													
 												<div class="row">
 													<div class="col-md-6 col-sm-6">
-														<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/kashmir.jpg);"></div>
+														<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/dps.jpg);"></div>
 													</div>
 													<div class="col-md-6 col-sm-6">
 														<div class="desc">
 															
-															<h2>Glamorous kashmir/Glimpse srinagar(4N)</h2>
-															<p class="price"><span>₹ 21200
+															<h2>Luxury Bali with cruise (5N)</h2>
+															<p class="price"><span>₹ 63400
                                                                    
-																</span> <small>/	4 Nights(3 Star)</small></p>
-															<p>The beautiful Kashmir valley looks like a paradise on earth. The valley is so beautiful that you will fall in love with it at the first sight itself.. </p>
+																</span> <small>/	5 Nights(3 Star)</small></p>
+															<p>Bali, the famed Island of the Gods, with its varied landscape of hills and mountains, rugged coastlines and sandy beaches, lush rice terraces and bar.</p>
 														<hr>
 															<img src="https://travelwindo.com/assets/images/flight-off.png" width="40px">
 															Flight
@@ -182,11 +67,12 @@
 													
 												<div class="row">
 													<div class="col-md-6 col-sm-6">
-															<h2>Patnitop(3N)</h2>
-															<p class="price"><span>₹ 24000
-                                                                   
-																	</span> <small>/ 3 Nights (3 Star)</small></p>
-															<p>Patnitop, a beautiful hill resort of the Kashmir valley, is situated at a distance of 112 km from Jammu. Hovering above a beautiful plateau and encir. . .</p>
+															<h2>Superb Bali (4N)</h2>
+															<p class="price"><span>₹ 44300
+
+                                                                    
+																	</span> <small>/ 4 Nights (3 Star)</small></p>
+															<p>Bali, the famed Island of the Gods, with its varied landscape of hills and mountains, rugged coastlines and sandy beaches, lush rice terraces and bar. . </p>
 															<hr>
 															<img src="https://travelwindo.com/assets/images/flight-off.png" width="40px">
 															Flight
@@ -203,7 +89,7 @@
 													</div>
 													<div class="col-md-6 col-sm-6">
 														<div class="desc">
-																<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/patnitop-1.jpg)";></div>
+																<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/BALI.jpg);"></div>
 														</div>
 													</div>
 												</div>
@@ -214,15 +100,16 @@
 														
 													<div class="row">
 														<div class="col-md-6 col-sm-6">
-															<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/boating_at_dal_lake__.jpg);"></div>
+															<div class="room-img" style="background-image: url(https://travelwindo.com/admin/uploads/Bali-HD-Desktop.jpg);"></div>
 														</div>
 														<div class="col-md-6 col-sm-6">
 															<div class="desc">
-																<h2>SRINAGAR (3N)</h2>
-																<p class="price"><span>₹ 18000
+																<h2>Breezy Bali(6N)</h2>
+																<p class="price"><span>₹ 39000
+                                                                       
 																	
-																	</span> <small>/	3 Nights (3 Star)</small></p>
-																<p>The beautiful Kashmir valley looks like a paradise on earth. The valley is so beautiful that you will fall in love with it at the first sight itself.. . .</p>
+																	</span> <small>/6 Nights (3 Star)</small></p>
+																<p>Bali, the famed Island of the Gods, with its varied landscape of hills and mountains, rugged coastlines and sandy beaches, lush rice terraces and bar. . . </p>
 															<hr>
 																<img src="https://travelwindo.com/assets/images/flight-off.png" width="40px">
 																Flight

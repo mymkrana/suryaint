@@ -1,127 +1,14 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Domestic Packages</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
-
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	
-	<!-- Date Picker -->
-	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
-		
-			<div class="colorlib-loader"></div>
-
-			<div id="page">
-				<nav class="colorlib-nav" role="navigation" >
-					<div class="top-menu">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-xs-2">
-									<div id="colorlib-logo"><a href="index.html"><img class="img-responsive" src="images/logo.png" alt="resort"></a></div>
-								</div>
-								<div class="col-xs-10 text-right menu-1">
-									<ul class="offer">
-								
-										<li class="active"><a href="index.html"><b>Home</a></li>
-											<li class="has-dropdown">
-													<a href="tours.html"><b> International Packages</b></a>
-												
-													<ul class="dropdown">
-															<a href="hotel-room.html"><li>Singapore</li></a>
-																<a href="dubai.html">	<li>Dubai</li></a>
-																<a href="Thailand.html">	<li>Thailand</li></a>
-																<a href="Malaysia.html">	<li>Malaysia</li></a>
-																<a href="Mauritius.htlm">	<li>Bali</li></a>
-																<a href="dubai.html">	<li>Mauritius</li></a>
-																<a href="New Zealand.html">	<li>New Zealand</li></a>
-																<a href="Uzbekistan.hhtml">	<li>Uzbekistan</li></a>
-																<a href="Kazakhstan.html">	<li>Kazakhstan</li></a>
-																<a href="tours.html">	<li>View All</li></a>
-													</ul>
-												</li>
-												<li>
-														<li class="has-dropdown">
-														<a href="tour1.html"><b> Domestic Packages</b></a>
-														<ul class="dropdown">
-																<a href="goa.html"><li>Goa</li></a>
-																	<a href="Andaman.html">	<li>Andaman</li></a>
-																	<a href="Kerala.html">	<li>Kerala</li></a>
-																	<a href="Darjeeling.html">	<li>Darjeeling</li></a>
-																	<a href=" Kashmir.htlm">	<li> Kashmir</li></a>
-																	<a href="Ladhak.html">	<li>Ladhak</li></a>
-																	<a href="Ooty.html">	<li>Ooty</li></a>
-																
-														</ul>
-													</li>
-										
-										<li><a href="services.html"><b>Services</b></a></li>
-										
-										<li><a href="about.html"><b>About</b></a></li>
-										<li><a href="contact.html"><b>Contact</b></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</nav>
+<?php require_once('inc/top.php');?>
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(images/12.jpg);">
+			   	<li style="background-image: url(images/img_bg_3.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
 				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
 				   				<div class="slider-text-inner text-center">
-				   					<h2>Surya Domestic Services</h2>
+				   					<h2>Surya International Services</h2>
 				   					<h1>Find your  Tours</h1>
 				   				</div>
 				   			</div>
@@ -140,104 +27,104 @@
 							<div class="wrap-division">
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="tour">
-										<a href="tour-place.html" class="tour-img" style="background-image: url(images/22.jpg);">
-											<p class="price"><span>₹ 13250</span> <small>/ 3 Days</small></p>
+										<a href="tour-place.html" class="tour-img" style="background-image: url(images/tour-1.jpg);">
+											<p class="price"><span>24300</span> <small>/ 3 Days</small></p>
 										</a>
 										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h2><a href="tour1.html">Glorious Goa</a></h2>
-											<span class="city">On the western coast of India, lies that perfect escape from the stresses or monotony of everyday life. Be it a trip with your friends, or a romantic. </span>
+											<h2><a href="tours.html">Singapore</a></h2>
+											<span class="city">Singapore has a number of museums for the historically and intellectually inclined tourist - the Singapore History Museum, the Arts Museum, the Phila. . . . .</span>
 										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="tour">
-										<a href="tour1.html" class="tour-img" style="background-image: url(images/23.jpg);">
-											<p class="price"><span>₹ 15000</span> <small>/ 4 Days</small></p>
+										<a href="tours.html" class="tour-img" style="background-image: url(images/tour-2.jpg);">
+											<p class="price"><span>34500</span> <small>/ 3 Days</small></p>
 										</a>
 										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 878 Reviews</p>
-											<h2><a href="tour1.html">Dazzling Goa</a></h2>
-											<span class="city">On the western coast of India, lies that perfect escape from the stresses or monotony of everyday life. Be it a trip with your friends, or a romantic</span>
+											<h2><a href="tour1">Family Tour in Dubai</a></h2>
+											<span class="city">Spend your holiday in Dubai with Travel Windo. This tour will let you have the perfect Arabic experience. You get to dine on a cruise and sail throug</span>
 										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="tour">
-										<a href="tour1.html" class="tour-img" style="background-image: url(images/24.jpg);">
-											<p class="price"><span>₹ 33000</span> <small>/ 7 Days</small></p>
+										<a href="tours.html" class="tour-img" style="background-image: url(images/tour-3.jpg);">
+											<p class="price"><span>₹ 26000</span> <small>/ 3 + 1 Days</small></p>
 										</a>
 										<span class="desc">
 											<!-- <p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 909 Reviews</p> -->
-											<h2><a href="tour1.html">Kerala</a></h2>
-											<span class="city">Kerala is an enthralling strip of green coastal land on the southwest tip of the Indian neck of land. This pictorial destination of South India is bl</span>
+											<h2><a href="tours.html">Pattaya + Bangkok</a></h2>
+											<span class="city">Pattaya and Bangkok have always been on the list of first time travellers to Thailand. Only 147 km from Bangkok, Pattaya is the closest of all the ma</span>
 										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="tour">
-										<a href="tour1.html" class="tour-img" style="background-image: url(images/25.jpg);">
-											<p class="price"><span> ₹ 23000</span> <small>/ 4 Days</small></p>
+										<a href="tours.html" class="tour-img" style="background-image: url(images/tour-4.jpg);">
+											<p class="price"><span> 35000</span> <small>/ 4 Days</small></p>
 										</a>
 										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h2><a href="tour1.html">Adorable Kerala</a></h2>
-											<span class="city">Kerala is an enthralling strip of green coastal land on the southwest tip of the Indian neck of land. This pictorial destination of South India is bl. </span>
+											<h2><a href="tours.html">Kuala Lumpur</a></h2>
+											<span class="city">Malaysia is located in southeast Asia, just north of the Equator, and is bordered by Thailand, Singapore, Indonesia and Brunei, and shares maritime b.</span>
 										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="tour">
-										<a href="tour1.html" class="tour-img" style="background-image: url(images/26.jpg);">
-											<p class="price"><span>₹ 34000</span> <small>/ 3 Days</small></p>
+										<a href="tours.html" class="tour-img" style="background-image: url(images/tour-5.jpg);">
+											<p class="price"><span> 32200</span> <small>/ 3 Days</small></p>
 										</a>
 										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h2><a href="tour1.html">Splendid Andaman</a></h2>
-											<span class="city">Andaman & Nicobar Islands is an out-and-out fun travel destination that is very popular among domestic as well as international tourists. From the lo</span>
+											<h2><a href="tours.html">Indonesia</a></h2>
+											<span class="city">Indonesia, a Southeast Asian nation made up of thousands of volcanic islands, is home to hundreds of ethnic groups speaking many different languages</span>
 										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="tour">
-										<a href="tour1.html" class="tour-img" style="background-image: url(images/27.jpg);">
-											<p class="price"><span>₹ 29950</span> <small>/ 4 Days</small></p>
+										<a href="tours.html" class="tour-img" style="background-image: url(images/tour-6.jpg);">
+											<p class="price"><span>54000</span> <small>/ 3 Days</small></p>
 										</a>
 										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h2><a href="tour1.html">Fun-Filled Darjeeling and Gangtok</a></h2>
-											<span class="city">Darjeeling is a hill station in the Eastern State of West Bengal. Also called the queen of hill-stations, at an altitude of 2134 m. or 7000 ft, it is. </span>
+											<h2><a href="tours.html">Sri Lanka</a></h2>
+											<span class="city">Sri Lanka (formerly Ceylon) is an island nation south of India in the Indian Ocean. Its diverse landscapes range from rainforest and arid plains to highlands and sandy beaches.</span>
 										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="tour">
-										<a href="tour1.html" class="tour-img" style="background-image: url(images/28.jpg);">
-											<p class="price"><span>₹ 33800</span> <small>/ 4 Days</small></p>
+										<a href="tours.html" class="tour-img" style="background-image: url(images/tour-7.jpg);">
+											<p class="price"><span>40000</span> <small>/ 4 Days</small></p>
 										</a>
 										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h2><a href="tour1.html">Darjeeling (3N)+Gangtok(1N)</a></h2>
-											<span class="city">Wander away to Sikkim and Darjeeling, the two hilly charmers with this 5-nights, 6-days bestselling Sikkim tour package and experience the </span>
+											<h2><a href="tours.html">Tashkent Extravaganza</a></h2>
+											<span class="city">Tashkent is the capital of Uzbekistan as well as the largest city in Central Asia. It is a pleasant city where you will find wide tree-lined boulevar</span>
 										</span>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="tour">
-										<a href="tour1.html" class="tour-img" style="background-image: url(images/29.jpg);">
-											<p class="price"><span>₹ 21200</span> <small>/ 4 Days</small></p>
+										<a href="tours.html" class="tour-img" style="background-image: url(images/tour-8.jpg);">
+											<p class="price"><span>43600</span> <small>/ 5 Days</small></p>
 										</a>
 										<span class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h2><a href="tour1.html">Glamorous kashmir/Glimpse srinagar(4N)</a></h2>
-											<span class="city">The beautiful Kashmir valley looks like a paradise on earth. The valley is so beautiful that you will fall in love with it at the first sight itself..</span>
+											<h2><a href="tours.html">Philipines</a></h2>
+											<span class="city">The Philippines is readily accessible from the travel capitals of the world.One can explore other interesting destinations and venture out of these</span>
 										</span>
 									</div>
 								</div>
